@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Game</title>
+	</head>
+
+	<body>
+		<script src="js/script.js"></script>
+		<label for="mode">Choose a mode:</label>
+
+		<select name="mode" id="mode">
+			<option value="Natural Numbers">Natural Numbers</option>
+			<option value="Byte">Byte</option>
+			<option value="[0;1]">[0;1]</option>
+		</select>
+		<br>
+		<label for="order">You are:</label>
+		<select name="order" id="order">
+			<option value="first">First player</option>
+			<option value="second">Second player</option>
+		</select>
+		
+		<br>
+		<button type="button" onclick="play()">Start</button><br><br>
+	</body>
+</html>
